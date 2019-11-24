@@ -1,7 +1,7 @@
 {
   "name": "monsters-rolodex",
   "version": "0.1.0",
-  "homepage" : "http://moamgad.github.io/monsters-rolodex",
+  "homepage" : "http://m-amgad.github.io/monsters-rolodex",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
