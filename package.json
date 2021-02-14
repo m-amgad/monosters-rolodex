@@ -1,7 +1,7 @@
 {
   "name": "monsters-rolodex",
   "version": "0.1.0",
-  "homepage" : "https://m-amgad.github.io/monosters-rolodex",
+  "homepage": "https://m-amgad.github.io/monosters-rolodex",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
@@ -15,7 +15,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run-script build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +33,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-knobs": "5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8"
   }
 }
